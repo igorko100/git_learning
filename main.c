@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 void main () {
-
-    printf("Hello\n");
+    unsigned int c=1;
+    for (int i=0; i<32; i++) {
+        printf("%x\n", c<<i);
+    }	
 }
 
